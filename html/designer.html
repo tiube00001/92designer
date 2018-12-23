@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>92设计猴--Android规范</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/designer.css">
+
+</head>
+<body>
+<!--导航栏开始-->
+<div class="nav">
+    <div class="container clearfix">
+        <img src="../image/logo.png" alt="" class="logo-fl">
+        <div class="list-fl">
+
+            <ul>
+                <li class="nav-fl"><a href="index.html">首页</a></li>
+                <li class="nav-fl nav-fl2">
+                    <a href="designer.html">
+                        设计规范
+                        <span class="icon-more">&#xe6bd;</span>
+                    </a>
+                </li>
+                <li class="nav-fl"><a href="dry-goods.html">干货速递</a></li>
+                <li class="nav-fl"><a href="material.html">素材库</a></li>
+                <li class="nav-fl"><a href="video.html">视频库</a></li>
+                <li class="nav-fl"><a href="designer.html">每日推荐</a></li>
+
+
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="sub-nav">
+    <div class="container">
+        <ul>
+            <li class="sub-fl"><a href="#">IOS规范</a></li>
+            <li class="sub-fl sub-fl2"><a href="#">Android规范</a></li>
+            <li class="sub-fl"><a href="#">Web标准</a></li>
+            <li class="sub-fl"><a href="#">切图规则</a></li>
+            <li class="sub-fl"><a href="#">IOS与Android互转</a></li>
+        </ul>
+    </div>
+</div>
+<!--导航栏结束-->
+<!--右侧快捷导航栏开始-->
+<div class="quick">
+    <div class="quick-pick">
+        <p class="quick-tittle">快捷列表</p>
+    </div>
+
+    <div class="father">
+        <div class="bg-line"></div>
+        <ul class="quick-position">
+            <li class="quick-list"><a href="#"><img src="../image/quick-pic1.png" alt=""><span class="icon-name">尺寸</span></a></li>
+            <li class="quick-list"><a href="#"><img src="../image/quick-pic1.png" alt=""><span class="icon-name">单位</span></a></li>
+            <li class="quick-list"><a href="#"><img src="../image/quick-pic1.png" alt=""><span class="icon-name">界面</span></a></li>
+            <li class="quick-list"><a href="#"><img src="../image/quick-pic1.png" alt=""><span class="icon-name">图标</span></a></li>
+            <li class="quick-list"><a href="#"><img src="../image/quick-pic1.png" alt=""><span class="icon-name">文字</span></a></li>
+            <li class="quick-list"><a href="#"><img src="../image/quick-pic1.png" alt=""><span class="icon-name">官方</span></a></li>
+        </ul>
+    </div>
+</div>
+<!--右侧快捷导航栏结束-->
+<!--内容区域开始-->
+<div class="container">
+    <div class="writings">
+        <div class="top clearfix">
+            <ul>
+                <li class="top-fl">2018-11-13</li>
+                <li class="top-fl"></li>
+                <li class="top-fr">分享</li>
+                <li class="top-fr">来源：92设计猴</li>
+            </ul>
+        </div>
+        <div class="main-writings">
+            <p class="tittle">android界面设计规范</p>
+            <p class="summary">
+                概要：这是我从多方搜集来的资料并加上自己的实践，进行总结归纳写出的。想入行的盆友们可以看看，当然也可以直接看谷歌规范。文章末尾有相关链接地址。
+            </p>
+            <div>
+                <div class="sub-tittle"><h3>设计尺寸</h3></div>
+                <div>
+                    <img src="../image/writing-pic1.png" alt="">
+                </div>
+                <p class="w-content">
+                    根据目前市场主流的设备屏幕尺寸来看，可以选择720*1280和1080*1920两种尺寸来设计。很多人推荐1080*1920px的尺寸来进行设计，这里我就不再赘述它的好处。个人还是比较习惯用720*1280px的尺寸做设计图，因为1dp=1sp=2px，后文会讲到它们之间的关系与含义。本文以720*1280px尺寸来进行讲解。
+                </p>
+            </div>
+            <div>
+                <div class="sub-tittle"><h3>SP、DP与PX之间的关系</h3></div>
+                <div>
+                    <img src="../image/writing-pic2.png" alt="">
+                </div>
+                <p class="note">1dp=（屏幕ppi/ 160)px</p>
+                <p class="w-content">
+                    当文字尺寸“正常”时，1dp=1sp，而当文字尺寸是“大”或者“超大”时，1dp<1sp。一般情况下默认sp=dp。简单来说只需要记住在720*1280px尺寸中，1dp=1sp=2px；在1080*1920px中，1dp=1sp=3px。
+                </p>
+            </div>
+            <div>
+                <div class="sub-tittle"><h3>界面基本尺寸</h3></div>
+                <p class="w-content">
+                    Android栅格系统的最小单位是8dp，要求所有的元素都落在栅格的边缘上，保证一切尺寸、大小都是8dp的整数倍，这样才能保证规范一致。界面最小的可点击区域是48*48dp，这也是用户能够准确触摸的最小尺寸。
+                </p>
+                <div>
+                    <img src="../image/writing-pic3.png" alt="">
+                    <ul class="note-fr">
+                        <li class="note">设计尺寸：720*1280px</li>
+                        <li class="note">状态栏：24dp</li>
+                        <li class="note">APPbar：48dp</li>
+                        <li class="note">子标题：40dp</li>
+                        <li class="note">列表项：72dp</li>
+                        <li class="note">左右留白区域：16dp</li>
+                        <li class="note">图标：40*40dp</li>
+                        <li class="note">底部导航栏：48dp</li>
+                        <li class="note">可点击区域：48*48dp</li>
+                        <li class="note">文字左侧对齐：72dp</li>
+                        <li class="note">图标与文字间留白：16dp</li>
+                        <li class="note">分割线上下留白：8dp</li>
+                    </ul>
+                </div>
+                <p class="w-content">
+                    tips：重点记住所有尺寸、距离都是8dp的整数倍，以及最小可触控区域是48dp就可以了。另外做设计的时候看自己做的是哪方面的，就参考哪方面的app，照着做慢慢就会了。
+                </p>
+            </div>
+            <div>
+                <div class="sub-tittle"><h3>图标尺寸规范</h3></div>
+                <div>
+                    <img src="../image/writing-pic4.png" alt="">
+                </div>
+                <div>
+                    <img src="../image/writing-pic5.png" alt="">
+                </div>
+            </div>
+            <div>
+                <div class="sub-tittle"><h3>文字大小规范</h3></div>
+                <p class="w-content">
+                    中文字体：Source Han Sans/Noto Sans CJK
+                </p>
+                <p class="w-content">
+                    英文、数字字体：Roboto
+                </p>
+                <p class="w-content">
+                    对于字体的大小，在界面设计过程中，需要统一，比如所有正文是统一大小，所有标题是统一大小。不同风格的字体大小，给人的感觉也是不同的，我们要学会灵活应用。
+                </p>
+            </div>
+            <div>
+                <div class="sub-tittle"><h3>谷歌官方规范</h3></div>
+                <p class="w-content">
+                    官方链接地址
+                </p>
+                <ul>
+                    <li>Google设计规范：</li>
+                    <li>https://design.google.com/</li>
+                </ul>
+                <ul>
+                    <li>Material Design 设计规范：</li>
+                    <li>https://material.io/</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--内容区域结束-->
+<!--footer区域开始-->
+<div class="footer">
+    <ul>
+        <li class="footer-mess">
+            免责声明：本站提供的素材仅做为学习与交流，请勿用于商业活动。本站素材均来自互联网，如无意中侵犯到您的权益，请与我们联系，
+            我们会尽快清除相关内容。
+        </li>
+        <li class="footer-mess">联系QQ：873188606(合作/广告/交流)  @爱设计网址</li>
+        <li class="footer-mess">Copyright © 2018  网址</li>
+    </ul>
+</div>
+<!--footer区域结束-->
+</body>
+</html>
