@@ -4,18 +4,45 @@
 
     /*主导航栏开始*/
     .nav-fl2 a {
-        color: #F00D0D;
         background-color: #fff;
-        border-top: 4px solid #7FB2EB;
+        color: #E71919;
+        border-top: 4px solid #3C90ED;
         box-sizing: border-box;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2) ;
     }
-    .icon-more {
+
+    @font-face {font-family: "iconfont";
+        src: url('iconfont.eot?t=1547457322073'); /* IE9 */
+        src: url('iconfont.eot?t=1547457322073#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAALEAAsAAAAABqwAAAJ2AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCCfgqBFIEXATYCJAMMCwgABCAFhG0HPxveBciemjzJYm1DoCB0A4CBcIqHr2Hz/d29Wh2oUhWDLHU8CtWKQjMIG5VIw2FshOqq2tz/zuU/QCFP5Z27QUkOWaEt/qRpOf1jzfrIuAk7YSbkJtyEWQIy/39wM1AjTw3LCiLh81xOb2VZIPMD5TTHxI56AcYBBbQ3RpGVUILcMHYTwQN8TKBp0ZLa6cHZJXQVYFUgnqVwoVuIK4pTqgvVhoNFfFJRTx9S+Mi/Hz9tR5ekkoGNZ0/7AWx9efsyy+ZcUEKCoB+vIGMLKMR5Y/5MQzi8hma+aQkca1bwZTafL2/0H08oSIKoAs1tsGbo0hMpsDwzzHTlEzdmUG1utAxsA9yx60OMhk8fxINxnLOYJeJkurTsnfoXpPrENQjGAl+d+doIVs4Hw8H75ibTzEkXH7r/8HtHad/rersCcANMyXf1QwDyDf9FDcHL/8tfdm/3X7dVwOc7WtDsxfBCXcJR/C7FwL4Sq4Ajl1CO5WkwGw3wJvSWJuZAeOh3unlyW+VQN5kQrlm4xWDdUkYWzhYqWnZQVXeApk2Hx1tGlIYoDWx41hD6PpF0vSPr+yYL5wcVU3+o6kcDTecxurBlJWT/RKFLGDDvgUk/zzhyUV+0nqO4SVyVV3H+NapKppipGeXSIWaolthS3QqLiDOu8pQdaM9hkuSsUHmEPmkhUbGi67zpTZqfp9B3QkEuggKM5wEj+XIZToeTfuXz55BwI+FSHayR5DWkVOT4jEljDCAP9dkg1qO8UrklWAjhGE7JpZgDbR5KJHJM0TwvgnxEE07IFlbocBAfqte2N6b/dwSawNYcKXIUzVfpZqIKSaT76kpbWrQBAAAA') format('woff2'),
+        url('iconfont.woff?t=1547457322073') format('woff'),
+        url('iconfont.ttf?t=1547457322073') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+        url('iconfont.svg?t=1547457322073#iconfont') format('svg'); /* iOS 4.1- */
+    }
+    .iconfont {
+        font-family:"iconfont" !important;
+        font-size:20px;
+        font-style:normal;
+        font-weight: 700;
         color: #F00D0D;
+
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
     }
     /*主导航栏结束*/
     /*子导航栏开始*/
-   .sub-nav {
-       display: block;
+    .sub-nav1 {
+        height: 40px;
+        background-color: #fff;
+        line-height: 40px;
+
+    }
+   .sub-fl1 {
+      float: left;
+       padding: 0 15px;
+   }
+   .sub-fl1:hover a {
+       color: #F00D0D;
    }
    .sub-fl2 a {
        color: #F00D0D;

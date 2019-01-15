@@ -1,4 +1,58 @@
 
+.sub-nav1 {
+    height: 40px;
+    background-color: #fff;
+    line-height: 40px;
+
+}
+.sub-fl1 {
+    float: left;
+    padding: 0 15px;
+}
+.sub-fl1:hover a {
+    color: #F00D0D;
+}
+
+
+
+.top .top-fl,
+.top-fr {
+    font-size: 12px;
+    color: #A5A4A4;
+    line-height: 40px;
+    padding: 0 5px;
+
+}
+.top {
+    height: 40px;
+    border-bottom: 1px solid #eff3f5;
+
+}
+.top-fl {
+    float: left;
+}
+.top-fr {
+    float: right;
+}
+/*.main-writings {*/
+    /*padding: 26px 24px;*/
+
+/*}*/
+.tittle {
+    font-size: 30px;
+    color: #5F5C5C;
+    text-align: center;
+    margin-right: 100px;
+}
+.summary {
+    font-size: 16px;
+    color: #5F5C5C;
+    line-height: 24px;
+    margin-top: 30px;
+    text-indent: 2em;
+}
+
+
 .fix-style {
     width: 300px;
     background-color: #fff;
@@ -54,7 +108,10 @@
     width: 860px;
     margin: 0;
     float: left;
+    background-color: #fff;
+    padding-bottom: 70px;
 }
+
 .writing-center {
     padding: 26px 20px;
 }

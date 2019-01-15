@@ -58,7 +58,7 @@
     .nav-fl  {
         float: left;
     }
-    .nav-fl a {
+    .nav-fl>a {
         font-size: 16px;
         color: #FCFAFA;
         line-height: 56px;
@@ -67,7 +67,7 @@
         display: inline-block;
 
     }
-    .nav-fl:hover a {
+    .nav-fl>a:hover  {
         background-color: #fff;
         color: #E71919;
         border-top: 4px solid #3C90ED;
@@ -102,21 +102,21 @@
 
     /*子导航栏*/
     .sub-nav {
-        height: 40px;
-        background: rgba(255,255,255,0.5);
+        background: rgba(255,255,255,1);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
         display: none;
-
+        position: absolute;
+        z-index: 1;
     }
     .sub-fl {
-        float: left;
-        line-height: 40px;
-        padding: 0 15px;
+        padding: 0 25px;
+        margin: 10px 0;
     }
     .sub-fl:hover a {
         color: #E71919;
     }
-    .nav-fl2:hover .sub-nav {
-        display: block;
+    .nav-fl2 {
+        position: relative;
     }
 
 
@@ -129,12 +129,18 @@
         height: 506px;
         margin-top: 50px;
     }
-    .top-website li {
+    .top-website>ul>li {
         float: left;
         padding-right: 20px;
+        position: relative;
     }
     .top-website li:last-child {
         padding: 0;
+    }
+    .top-website>ul>li>img {
+        display: none;
+        position: absolute;
+        top: -12px;
     }
     .website-logo {
         display: block;
