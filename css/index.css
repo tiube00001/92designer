@@ -140,25 +140,41 @@
     .top-website>ul>li>img {
         display: none;
         position: absolute;
-        top: -12px;
+        top: -16px;
     }
     .website-logo {
         display: block;
         width: 130px;
         height: 76px;
         border-radius: 5px;
+
     }
 
     .website-logo:hover {
-        box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        margin-top: -4px;
+
     }
 
     .checked {
-        box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        box-shadow: 0 2px 10px rgba(0,0,0,0.3);
     }
+.combine-box {
+    position: absolute;
+}
+.combine {
+    background-color: #f20678;
+    width: 90px;
+    height: 6px;
+    border-radius: 3px;
+    position: relative;
+    left: 20px;
+    z-index: 1;
+}
 /*轮播图区域*/
     .replace {
         position: relative;
+
     }
 
     .article div {
@@ -182,7 +198,6 @@
         height: 420px;
         box-sizing: border-box;
         position: absolute;
-        display: none;
     }
 
     .article .article1,
@@ -301,13 +316,16 @@
 
      .designation {
         text-align: center;
-         font-size: 24px;
+         font-size: 22px;
          margin-top: 30px;
     }
+
+
      .presentation {
          text-align: center;
-         font-size: 16px;
+         font-size: 14px;
          color: #7A7878;
+         margin-top: 2px;
 
      }
     .content {
@@ -324,6 +342,20 @@
     .content:nth-child(5n) {
         margin-right: 0;
     }
+    .content1 {
+        width: 228px;
+        height: 90px;
+        background-color: #fff;
+        border-radius: 5px;
+        display: block;
+        text-align: center;
+        float: right;
+        margin-left: 10px;
+        transition: all 0.2s;
+    }
+    .content1:nth-child(5n) {
+        margin-left: 0;
+    }
     .main2 {
         height: 96px;
         background:rgba(146,168,228,0.3);
@@ -332,9 +364,21 @@
         justify-content: center;
         align-items: center;
     }
+    .main11 {
+        height: 56px;
+        background:rgba(146,168,228,0.3);
+        border-radius: 5px 5px 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
     .presentation1 {
         width: 176px;
         height: 44px;
+        color: #9D9C9C;
+    }
+    .presentation11 {
         color: #9D9C9C;
     }
     .name {
@@ -349,6 +393,15 @@
         height: 130px;
         margin-top: 10px;
     }
+    .Plugin1 {
+        margin-top: 25px;
+    }
+    .Plugin2 {
+        margin-top: 10px;
+    }
+    .Plugin11 {
+        margin-top: 20px;
+    }
     .content:hover .main2 {
         background: rgba(72,108,208,0.3);
     }
@@ -356,6 +409,16 @@
         color: #ffffff;
     }
     .content:hover {
+        box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+        margin-top: -5px;
+    }
+    .content1:hover .main11 {
+        background: rgba(72,108,208,0.3);
+    }
+    .content1:hover .presentation11 {
+        color: #ffffff;
+    }
+    .content1:hover {
         box-shadow: 0 2px 6px rgba(0,0,0,0.3);
         margin-top: -5px;
     }

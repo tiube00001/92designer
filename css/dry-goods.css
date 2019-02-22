@@ -28,6 +28,22 @@ img {
 
 /*子导航栏结束*/
 /*内容区域开始*/
+.sub-dry {
+    width: 860px;
+    background-color: #fff;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 1px;
+}
+.demo-dry {
+    width: 860px;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
 .dry {
     width: 860px;
     background-color: #fff;
@@ -35,30 +51,132 @@ img {
     padding: 20px;
     box-sizing: border-box;
     margin-bottom: 10px;
+    height: 200px;
+}
+.top-fl {
+    float: left;
+}
+.top-fr {
+    float: right;
+}
+.demo-tittle {
+    font-size: 26px;
+    color: #171717;
+    line-height: 26px;
+    text-align: center;
+}
+.sub-tittle {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 17px;
+    line-height: 17px;
 }
 .tittle {
     font-size: 22px;
     color: #A5A4A4;
-    margin-left: 100px;
+    padding-left: 90px;
+    width: 440px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tittle:hover {
+    color: red;
+}
+.demo-summary {
+    width: 760px;
+    font-size: 14px;
+    padding-left: 40px;
+    margin-top: 40px;
+    line-height: 24px;
 }
 .summary {
     line-height: 26px;
     width: 522px;
     margin-top: 7px;
+    height: 100px;
+    padding-right: 18px;
 }
+.tips {
+    color: #FA9595;
+    padding-left: 320px;
+    margin-top: 20px;
+}
+.first-tittle {
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.first-tittle1,
+.first-tittle2,
+.first-tittle3 {
+    float: left;
+    height: 42px;
+    background-color: #EC4141;
+    margin-left: 5px;
+}
+.first-tittle1 {
+    width: 213px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 24px;
+    color: #FDFDFD;
+}
+.first-tittle2 {
+    width: 6px;
+}
+.first-tittle3 {
+    width: 3px;
+}
+.demo-content {
+    margin: 20px 0;
+}
+.second-tittle {
+    font-size: 18px;
+}
+
+
 .introduce1 {
     float: left;
     padding-right: 50px;
 }
 .introduce2 {
     float: right;
+    padding-right: 18px;
 }
-.introduce {
-    margin-top: 50px;
-}
+
 
 .dry-fr {
     float: right;
+}
+/*分页开始*/
+.page-nav {
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: lightgray;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+}
+.p-color {
+    background-color: pink;
+}
+.page-nav1 {
+    float: left;
+    width: 30px;
+    height: 40px;
+
+    text-align: center;
+    line-height: 40px;
+}
+.page-nav:hover {
+    background-color: pink;
+}
+
+.page-box {
+    margin-top: 40px;
+    margin-left: 160px;
 }
 .fix {
     width: 300px;
@@ -105,6 +223,9 @@ img {
     top: 15px;
     font-size: 12px;
     width: 168px;
+}
+.cloud2:hover {
+    color: red;
 }
 
 
