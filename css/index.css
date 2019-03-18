@@ -99,6 +99,13 @@
         color: #E71919;
         display: inline-block;
     }
+    .nav-fl1 a {
+        background-color: #fff;
+        color: #E71919;
+        border-top: 4px solid #3C90ED;
+        box-sizing: border-box;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2) ;
+    }
 
     /*子导航栏*/
     .sub-nav {
@@ -109,11 +116,12 @@
         z-index: 1;
     }
     .sub-fl {
-        padding: 0 25px;
-        margin: 10px 0;
+        display: block;
+        padding: 10px 25px;
     }
-    .sub-fl:hover a {
-        color: #E71919;
+    .sub-fl:hover {
+        color: #ffffff;
+        background-color: red;
     }
     .nav-fl2 {
         position: relative;
@@ -149,6 +157,9 @@
         border-radius: 5px;
 
     }
+    .website-logo>img {
+        border-radius: 5px;
+    }
 
     .website-logo:hover {
         box-shadow: 0 2px 10px rgba(0,0,0,0.3);
@@ -159,18 +170,22 @@
     .checked {
         box-shadow: 0 2px 10px rgba(0,0,0,0.3);
     }
-.combine-box {
-    position: absolute;
-}
-.combine {
-    background-color: #f20678;
-    width: 90px;
-    height: 6px;
-    border-radius: 3px;
-    position: relative;
-    left: 20px;
-    z-index: 1;
-}
+
+    .w-icon {
+        float: left;
+        margin-left: 20px;
+        padding: 0 57px;
+    }
+   .w-icon:first-child {
+       margin: 0;
+   }
+    .img-style {
+        width: 16px;
+
+    }
+
+
+
 /*轮播图区域*/
     .replace {
         position: relative;
@@ -192,7 +207,7 @@
 
     .article {
         background-color: #fff;
-        margin-top: 10px;
+        margin-top: 20px;
         padding: 10px;
         border-radius: 10px;
         height: 420px;
@@ -211,7 +226,30 @@
         position: relative;
         overflow: hidden;
     }
-
+    .article .article1:hover {
+        box-shadow: 0  3px 6px rgba(0, 0, 0, 0.3);
+    }
+    .article .article2:hover {
+        box-shadow: 0  3px 6px rgba(0, 0, 0, 0.3);
+    }
+    .article .article3:hover {
+        box-shadow: 0  3px 6px rgba(0, 0, 0, 0.3);
+    }
+    .article .article4:hover {
+        box-shadow: 0  3px 6px rgba(0, 0, 0, 0.3);
+    }
+    .article .article5:hover {
+        box-shadow: 0  3px 6px rgba(0, 0, 0, 0.3);
+    }
+    .article .article6:hover {
+        box-shadow: 0  3px 6px rgba(0, 0, 0, 0.3);
+    }
+    .article .article7:hover {
+        box-shadow: 0  3px 6px rgba(0, 0, 0, 0.3);
+    }
+    .article .article8:hover {
+        box-shadow: 0  3px 6px rgba(0, 0, 0, 0.3);
+    }
     .article a:hover .headline {
         height: 30px;
         background: rgba(255, 255, 255, 0.4);
@@ -226,9 +264,224 @@
         width: 100%;
 
     }
-    .article a:hover .headline::before {
+
+    /*banner1 headline*/
+    .article a:hover .b1-headline1::before {
         content: "weather illustration interfaces";
     }
+    .article a:hover .b1-headline2::before {
+        content: "Bath Time 6";
+    }
+    .article a:hover .b1-headline3::before {
+        content: "Icons Two Tone";
+    }
+    .article a:hover .b1-headline4::before {
+        content: "Oreo Mobile Game";
+    }
+    .article a:hover .b1-headline5::before {
+        content: "Jobo Mockup";
+    }
+    .article a:hover .b1-headline6::before {
+        content: "DailyUI #23 - Onboarding";
+    }
+    .article a:hover .b1-headline7::before {
+        content: "Flora";
+    }
+    .article a:hover .b1-headline8::before {
+        content: "Nest";
+    }
+
+    /*banner2 headline*/
+    .article a:hover .b2-headline1::before {
+        content: "熊猫冰箱贴";
+    }
+    .article a:hover .b2-headline2::before {
+        content: "【插画设计】2019 新年好";
+    }
+    .article a:hover .b2-headline3::before {
+        content: "2018作品合集";
+    }
+    .article a:hover .b2-headline4::before {
+        content: "小清新插画";
+    }
+    .article a:hover .b2-headline5::before {
+        content: "潮流态度app";
+    }
+    .article a:hover .b2-headline6::before {
+        content: "启动页&Banner一周集合";
+    }
+    .article a:hover .b2-headline7::before {
+        content: "2018-作品集";
+    }
+    .article a:hover .b2-headline8::before {
+        content: "森系人物教程 | 创作过程视频";
+    }
+
+    /*banner3 headline*/
+    .article a:hover .b3-headline1::before {
+        content: "European Design Awards installation";
+    }
+    .article a:hover .b3-headline2::before {
+        content: "Turing Illustrations";
+    }
+    .article a:hover .b3-headline3::before {
+        content: "Between Shapes";
+    }
+    .article a:hover .b3-headline4::before {
+        content: "Blog's articles illustrations";
+    }
+    .article a:hover .b3-headline5::before {
+        content: "Superthing";
+    }
+    .article a:hover .b3-headline6::before {
+        content: "Miscellaneous Illustrations";
+    }
+    .article a:hover .b3-headline7::before {
+        content: "Illustration set — 18";
+    }
+    .article a:hover .b3-headline8::before {
+        content: "Paradise at the end of New York";
+    }
+
+    /*banner4 headline*/
+    .article a:hover .b4-headline1::before {
+        content: "节日图标的5种设计思路";
+    }
+    .article a:hover .b4-headline2::before {
+        content: "手绘插画闪屏合集";
+    }
+    .article a:hover .b4-headline3::before {
+        content: "人工智能也无法取代你的硬实力";
+    }
+    .article a:hover .b4-headline4::before {
+        content: "企业网站设计";
+    }
+    .article a:hover .b4-headline5::before {
+        content: "Sexy Hexi - Hex vom Dasenstein";
+    }
+    .article a:hover .b4-headline6::before {
+        content: "美食类app再设计";
+    }
+    .article a:hover .b4-headline7::before {
+        content: "OPPO插画闪屏合集";
+    }
+    .article a:hover .b4-headline8::before {
+        content: "详解APP设计中的四大要素";
+    }
+
+
+    /*banner5 headline*/
+    .article a:hover .b5-headline1::before {
+        content: "QfashionQ";
+    }
+    .article a:hover .b5-headline2::before {
+        content: "404 Error";
+    }
+    .article a:hover .b5-headline3::before {
+        content: "Caption Marvel Landing Page";
+    }
+    .article a:hover .b5-headline4::before {
+        content: "Gradient Able Admin Template";
+    }
+    .article a:hover .b5-headline5::before {
+        content: "Restaurant Landing Page";
+    }
+    .article a:hover .b5-headline6::before {
+        content: "Avtiva (Anti-Virus)";
+    }
+    .article a:hover .b5-headline7::before {
+        content: "Sound Testing App Design";
+    }
+    .article a:hover .b5-headline8::before {
+        content: "Surfing";
+    }
+
+
+
+    /*banner6 headline*/
+    .article a:hover .b6-headline1::before {
+        content: "A design template for agency";
+    }
+    .article a:hover .b6-headline2::before {
+        content: "A free set of 3";
+    }
+    .article a:hover .b6-headline3::before {
+        content: "Free set of 39 coloured Christmas icons";
+    }
+    .article a:hover .b6-headline4::before {
+        content: "A free font inspired";
+    }
+    .article a:hover .b6-headline5::before {
+        content: "UI kit for Ps and Sketch";
+    }
+    .article a:hover .b6-headline6::before {
+        content: "A modern brutalist variable font";
+    }
+    .article a:hover .b6-headline7::before {
+        content: "Iconic movie characters – PSD";
+    }
+    .article a:hover .b6-headline8::before {
+        content: "iPhone X & iPhone 8: mockups";
+    }
+
+
+
+    /*banner7 headline*/
+    .article a:hover .b7-headline1::before {
+        content: "「小图标/扁平图标」";
+    }
+    .article a:hover .b7-headline2::before {
+        content: "配色碎片";
+    }
+    .article a:hover .b7-headline3::before {
+        content: "插画系列欣赏";
+    }
+    .article a:hover .b7-headline4::before {
+        content: "视觉类-扁平化";
+    }
+    .article a:hover .b7-headline5::before {
+        content: "插画 / 2.5D";
+    }
+    .article a:hover .b7-headline6::before {
+        content: "创意灵感";
+    }
+    .article a:hover .b7-headline7::before {
+        content: "UI---进度条";
+    }
+    .article a:hover .b7-headline8::before {
+        content: "手机界面";
+    }
+
+
+
+    /*banner8 headline*/
+    .article a:hover .b8-headline1::before {
+        content: "Redeem Coupon";
+    }
+    .article a:hover .b8-headline2::before {
+        content: "Analytics Chart";
+    }
+    .article a:hover .b8-headline3::before {
+        content: "Food/Drink Menu";
+    }
+    .article a:hover .b8-headline4::before {
+        content: "Countdown Timer";
+    }
+    .article a:hover .b8-headline5::before {
+        content: "Badge";
+    }
+    .article a:hover .b8-headline6::before {
+        content: "Landing Page";
+    }
+    .article a:hover .b8-headline7::before {
+        content: "Weather";
+    }
+    .article a:hover .b8-headline8::before {
+        content: "404 Page";
+    }
+
+
+
     .article a:hover img {
         transform: scale(1.1);
 
@@ -385,6 +638,9 @@
         padding: 8px;
         color: #272727;
     }
+    .name>img {
+        width: 16px;
+    }
     .main3 {
         margin-top: 25px;
         height: 130px;
@@ -428,7 +684,7 @@
 .footer {
     height: 260px;
     background-color: #2E2D2D;
-    margin-top: 110px;
+    margin-top: 160px;
 }
 .footer-mess {
     font-size: 16px;

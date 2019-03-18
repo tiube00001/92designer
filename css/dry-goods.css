@@ -32,7 +32,7 @@ img {
     width: 860px;
     background-color: #fff;
     border-radius: 10px 10px 0 0;
-    padding: 10px 20px;
+    padding: 6px 20px;
     box-sizing: border-box;
     margin-bottom: 1px;
 }
@@ -44,6 +44,7 @@ img {
     box-sizing: border-box;
     margin-bottom: 10px;
 }
+
 .dry {
     width: 860px;
     background-color: #fff;
@@ -53,11 +54,20 @@ img {
     margin-bottom: 10px;
     height: 200px;
 }
+.dry img {
+    border-radius: 5px;
+}
+.top>ul>li {
+    font-size: 12px;
+
+}
 .top-fl {
     float: left;
+    padding: 0 5px;
 }
 .top-fr {
     float: right;
+    padding: 0 5px;
 }
 .demo-tittle {
     font-size: 26px;
@@ -85,10 +95,16 @@ img {
 }
 .demo-summary {
     width: 760px;
+    text-indent: 2em;
     font-size: 14px;
     padding-left: 40px;
-    margin-top: 40px;
+    margin-top: 20px;
     line-height: 24px;
+}
+.demo-dry img {
+    max-width: 820px;
+    display: block;
+    margin: 20px auto;
 }
 .summary {
     line-height: 26px;
@@ -96,15 +112,16 @@ img {
     margin-top: 7px;
     height: 100px;
     padding-right: 18px;
+    text-indent: 2em;
 }
 .tips {
     color: #FA9595;
-    padding-left: 320px;
-    margin-top: 20px;
+    text-align: center;
+    margin-top: 10px;
 }
 .first-tittle {
-    margin-left: 300px;
-    margin-top: 20px;
+    width: 232px;
+    margin: 30px auto 20px;
 }
 .first-tittle1,
 .first-tittle2,
@@ -115,10 +132,11 @@ img {
     margin-left: 5px;
 }
 .first-tittle1 {
+    margin-left: 0;
     width: 213px;
     line-height: 42px;
     text-align: center;
-    font-size: 24px;
+    font-size: 22px;
     color: #FDFDFD;
 }
 .first-tittle2 {
@@ -128,10 +146,15 @@ img {
     width: 3px;
 }
 .demo-content {
-    margin: 20px 0;
+    margin: 6px 0;
+    font-size: 16px;
+    text-indent: 2em;
+    line-height: 28px;
 }
 .second-tittle {
     font-size: 18px;
+    color: #333;
+    padding: 10px
 }
 
 
@@ -178,13 +201,18 @@ img {
     margin-top: 40px;
     margin-left: 160px;
 }
+/*右侧推荐栏*/
+.container {
+    position: relative;
+}
 .fix {
     width: 300px;
     background-color: #fff;
     border-radius: 5px;
-    position: fixed;
+    position: absolute;
     left: 1250px;
 }
+
 .fix-cloud {
     top: 126px;
 
