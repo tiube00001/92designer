@@ -217,6 +217,12 @@ img {
     top: 126px;
 
 }
+.fix-cloud img {
+    max-width: 84px;
+}
+.fix-article img {
+    max-width: 84px;
+}
 .fix-article {
     top: 426px;
 
