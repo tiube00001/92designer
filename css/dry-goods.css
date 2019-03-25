@@ -2,11 +2,11 @@ img {
     vertical-align: top;
 }
 .nav-fl3 a {
-    background-color: #fff;
-    color: #E71919;
-    border-top: 4px solid #3C90ED;
-    box-sizing: border-box;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2) ;
+    /*background-color: #fff;*/
+    color: #FCFAFA;
+    /*border-top: 4px solid #3C90ED;*/
+    /*box-sizing: border-box;*/
+    /*box-shadow: 0 2px 4px rgba(0,0,0,0.2) ;*/
 }
 
 /*子导航栏开始*/
@@ -20,10 +20,13 @@ img {
 }
 .sub-fl1 {
     float: left;
-    padding: 0 15px;
+    padding: 0 12px;
+}
+.sub-fl1 >a {
+    color: #A5A4A4;
 }
 .sub-fl1:hover a {
-    color: #F00D0D;
+    color: #ff706d;
 }
 
 /*子导航栏结束*/
@@ -35,6 +38,7 @@ img {
     padding: 6px 20px;
     box-sizing: border-box;
     margin-bottom: 1px;
+    
 }
 .demo-dry {
     width: 860px;
@@ -44,7 +48,9 @@ img {
     box-sizing: border-box;
     margin-bottom: 10px;
 }
-
+.writing {
+    float: left;
+}
 .dry {
     width: 860px;
     background-color: #fff;
@@ -177,10 +183,13 @@ img {
     width: 40px;
     height: 40px;
     background-color: lightgray;
-    margin: 0 5px;
+    /*margin: 0 5px;*/
     text-align: center;
     line-height: 40px;
     display: block;
+}
+.page-nav2 {
+    margin-left: 10px;
 }
 .p-color {
     background-color: pink;
@@ -196,37 +205,48 @@ img {
 .page-nav:hover {
     background-color: pink;
 }
-
+.container-page {
+    width: 860px;
+}
 .page-box {
-    margin-top: 40px;
-    margin-left: 160px;
+    /*margin-top: 40px;*/
+    /*margin-left: 160px;*/
+    width: 90px;
+    margin: 40px auto 0;
 }
 /*右侧推荐栏*/
 .container {
-    position: relative;
+    /*position: relative;*/
 }
 .fix {
     width: 300px;
     background-color: #fff;
     border-radius: 5px;
-    position: absolute;
-    left: 1250px;
+    /*position: absolute;*/
+    /*left: 1250px;*/
+    margin-bottom: 20px;
+    float: right;
 }
-
-.fix-cloud {
-    top: 126px;
-
-}
-.fix-cloud img {
+.fix img {
     max-width: 84px;
 }
-.fix-article img {
-    max-width: 84px;
-}
-.fix-article {
-    top: 426px;
 
-}
+
+
+/*.fix-cloud {*/
+    /*top: 126px;*/
+
+/*}*/
+/*.fix-cloud img {*/
+    /*max-width: 84px;*/
+/*}*/
+/*.fix-article img {*/
+    /*max-width: 84px;*/
+/*}*/
+/*.fix-article {*/
+    /*top: 426px;*/
+
+/*}*/
 .fix-tittle {
     height: 44px;
     font-size: 16px;

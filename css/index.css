@@ -60,7 +60,7 @@
     }
     .nav-fl>a {
         font-size: 16px;
-        color: #FCFAFA;
+        color: #bbbdc0;
         line-height: 56px;
         padding: 0 24px;
         height: 56px;
@@ -68,11 +68,11 @@
 
     }
     .nav-fl>a:hover  {
-        background-color: #fff;
-        color: #E71919;
-        border-top: 4px solid #3C90ED;
-        box-sizing: border-box;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.2) ;
+        background-color: #f20678;
+        color: #FCFAFA;
+        /*border-top: 4px solid #f20678;*/
+        /*box-sizing: border-box;*/
+        /*box-shadow: 0 2px 4px rgba(0,0,0,0.2) ;*/
     }
     @font-face {font-family: "icon-more";
         src: url('iconfont.eot?t=1544597669734'); /* IE9*/
@@ -86,7 +86,7 @@
         font-size:20px;
         font-style:normal;
         font-weight: 700;
-        color: #FCFAFA;
+        color: #bbbdc0;
 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -96,15 +96,15 @@
     }
     .nav-fl2:hover .icon-more {
         transform: rotate(180deg);
-        color: #E71919;
+        color: #FCFAFA;
         display: inline-block;
     }
     .nav-fl1 a {
-        background-color: #fff;
-        color: #E71919;
-        border-top: 4px solid #3C90ED;
-        box-sizing: border-box;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.2) ;
+        /*background-color: #fff;*/
+        color: #FCFAFA;
+        /*border-top: 4px solid #f20678;*/
+        /*box-sizing: border-box;*/
+        /*box-shadow: 0 2px 4px rgba(0,0,0,0.2) ;*/
     }
 
     /*子导航栏*/
@@ -115,13 +115,15 @@
         position: absolute;
         z-index: 1;
     }
-    .sub-fl {
+    .sub-fl a {
         display: block;
+        background-color: #383838;
+        color: #bbbdc0;
         padding: 10px 25px;
     }
-    .sub-fl:hover {
+    .sub-fl:hover a {
         color: #ffffff;
-        background-color: red;
+        background-color: #f20678;
     }
     .nav-fl2 {
         position: relative;
@@ -518,14 +520,33 @@
         height: 50px;
         background-color: #fff;
         border-radius: 5px;
-        margin-top: 40px;
+        margin-top: 30px;
     }
+
     .li-classify {
         float: left;
         line-height: 50px;
-        padding: 0 20px;
+        padding: 0 5px;
     }
-    
+    .li-classify>a {
+        padding: 2px 12px;
+        color: #b5b7ba;
+    }
+    .li-classify>a:hover {
+        display: block;
+        height: 24px;
+        background-color: #f20678;
+        margin-top: 12px;
+        color: #FCFAFA;
+        border-radius: 5px;
+        line-height: 24px;
+        text-align: center;
+
+    }
+    .li-classify1 {
+        font-size: 16px;
+        padding: 0 20px
+    }
     
     
     
@@ -541,7 +562,7 @@
     .quick-pick {
         width: 100%;
         height: 32px;
-        background-color: red;
+        background-color: #f20678;
         border-radius: 5px;
 
     }
@@ -553,7 +574,7 @@
         font-size: 14px;
     }
     .quick-list {
-        padding: 17px 0 17px 25px;
+        padding: 17px 0 17px 22px;
         height: 35px;
 
     }
@@ -580,19 +601,34 @@
         width: 4px;
         height: 535px;
         background-color: #DDDDDD;
-        margin-left: 42px;
+        margin-left: 38px;
         position: absolute;
     }
     /*右侧快捷导航栏结束*/
     /*main区域开始*/
+.line {
+    background-color: #666;
+    width: 50px;
+    height: 2px;
+    float: left;
+    margin: 16px 16px;
 
+}
+.floor-name {
+    margin: 30px auto 2px;
+    width: 252px;
+}
      .designation {
-        text-align: center;
+        /*text-align: center;*/
          font-size: 22px;
-         margin-top: 30px;
+         float: left;
     }
 
-
+.to-be-continued {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 22px;
+}
      .presentation {
          text-align: center;
          font-size: 14px;
@@ -663,6 +699,12 @@
     .main3 {
         margin-top: 25px;
         height: 130px;
+    }
+    .main3 img {
+        border-radius: 5px 5px 0 0;
+    }
+    .main4 img {
+        border-radius: 5px 5px 0 0;
     }
     .main4 {
         height: 130px;

@@ -4,11 +4,11 @@
 
     /*主导航栏开始*/
     .nav-fl2 a {
-        background-color: #fff;
-        color: #E71919;
-        border-top: 4px solid #3C90ED;
-        box-sizing: border-box;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.2) ;
+        /*background-color: #fff;*/
+        color: #FCFAFA;
+        /*border-top: 4px solid #3C90ED;*/
+        /*box-sizing: border-box;*/
+        /*box-shadow: 0 2px 4px rgba(0,0,0,0.2) ;*/
     }
 
     @font-face {font-family: "iconfont";
@@ -24,7 +24,7 @@
         font-size:20px;
         font-style:normal;
         font-weight: 700;
-        color: #F00D0D;
+        color: #FCFAFA;
 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
@@ -41,11 +41,14 @@
       float: left;
        padding: 0 15px;
    }
+   .sub-fl1 a {
+       color: #a1a3a6;
+   }
    .sub-fl1:hover a {
-       color: #F00D0D;
+       color: #f20678;
    }
    .sub-fl2 a {
-       color: #F00D0D;
+       color: #f20678;
    }
    /*子导航栏结束*/
     /*右侧快捷选择开始*/

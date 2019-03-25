@@ -7,10 +7,13 @@
 }
 .sub-fl1 {
     float: left;
-    padding: 0 15px;
+    padding: 0 12px;
+}
+.sub-fl1 >a {
+    color: #A5A4A4;
 }
 .sub-fl1:hover a {
-    color: #F00D0D;
+    color: #ff706d;
 }
 
 
@@ -76,6 +79,13 @@
 .fix-style1 {
     padding-bottom: 10px;
     position: relative;
+}
+.nav-fl3 a {
+    /*background-color: #fff;*/
+    color: #FCFAFA;
+    /*border-top: 4px solid #3C90ED;*/
+    /*box-sizing: border-box;*/
+    /*box-shadow: 0 2px 4px rgba(0,0,0,0.2) ;*/
 }
 .details {
     font-size: 14px;
